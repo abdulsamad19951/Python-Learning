@@ -1,8 +1,16 @@
 # This snippet will use bubble sort algorithm for sorting an array
-array = [5, 7, 81, 1, 5, 1, 2, 5, 2, 1, 0, 48]
+array=[]
+check=True
+while check==True:
+    a=input("Enter Number \n  Or Press Q to Stop  ")
+    if (a=="Q") or (a=="q"):
+        break
+    else:
+        array.append(int(a))
+
 length = len(array)
 print("Total Elements To Be Sorted Are", length)
-print(array)
+print("Unsorted Array = ",array)
 
 for i in range(0, length-2):
     for j in range(0, length-1):
@@ -11,4 +19,4 @@ for i in range(0, length-2):
             array[j] = array[j + 1]         #be done in python as
             array[j + 1] = temp             #a,b=b.a
 
-print(array)
+print("Sorted Array = ",array)
