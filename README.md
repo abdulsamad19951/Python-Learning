@@ -1,2 +1,3 @@
 # Python-Learning
-Learning python by implementing algorithms
+This repository was made to learn Python by implementing some popular algorithms
+# Njoy
