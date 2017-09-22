@@ -1,5 +1,4 @@
-#This program gives prime number in a range
-count=0;
+#This program gives prime numbers in a range
 lower=int(input("Enter Lower end \n"))
 upper=int(input("Enter Upper end \n \n \n"))
 for t in range(lower,upper+1):
